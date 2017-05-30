@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(library
+ ((name c_lib)
+  (c_names (hw))))
+
+(executables
+ ((names (hello_world))
+  (libraries (c_lib))))
